@@ -1,0 +1,23 @@
+{
+  "name": "justform",
+  "version": "1.0.0",
+  "description": "React Registration Form Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appolonist/justform.git"
+  },
+  "keywords": [
+    "registration",
+    "form"
+  ],
+  "author": "Karol Piotrowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appolonist/justform/issues"
+  },
+  "homepage": "https://github.com/appolonist/justform#readme"
+}

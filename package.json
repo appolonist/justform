@@ -4,6 +4,8 @@
   "description": "React Registration Form Component",
   "main": "index.js",
   "scripts": {
+    "start": "webpack serve --mode development --open --hot",
+    "buld": "webpack --mode production",
     "test": "jest"
   },
   "repository": {
@@ -19,5 +21,21 @@
   "bugs": {
     "url": "https://github.com/appolonist/justform/issues"
   },
-  "homepage": "https://github.com/appolonist/justform#readme"
+  "homepage": "https://github.com/appolonist/justform#readme",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.21.0",
+    "html-webpack-plugin": "^5.3.0",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
 }

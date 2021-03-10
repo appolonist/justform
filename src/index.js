@@ -1,13 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import ReactDOM from "react-dom";
-
-const App = () => (
-    <div>
-        <h1>
-            Text from form!
-        </h1>
-    </div>
-);
+import { App } from "./components/App";
 
 ReactDOM.render(<App/>, document.getElementById("root"));
+

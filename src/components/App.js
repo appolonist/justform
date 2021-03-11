@@ -1,12 +1,8 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 import React from "react";
-
+import Card from "../components/Card";
 const App = () => (
-    <div>
-        <h1>
-            Text from form!
-        </h1>
-    </div>
+    <Card />
 );
 
 export { App };

@@ -15,5 +15,5 @@ it("App component test", () => {
         <App />,
     );
 
-    expect(screen.getByText("Text from form!")).toBeInTheDocument();
+    expect(screen.getByText("From Card")).toBeInTheDocument();
 });
